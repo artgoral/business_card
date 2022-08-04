@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/style.css" />
         <!-- Helper -->
         <style>
+            /* this is CSS declaration part */
             section {
               border: 2px solid green;
             }
@@ -23,7 +24,13 @@
             div {
               border: 2px solid red;
             }
-          </style>        
+            /* example unordered list */
+            ul.a {list-style-type: circle;} 
+            ul.b {list-style-type: square;}
+            /* example ordered list */
+            ol.c {list-style-type: upper-roman;}
+            ol.d {list-style-type: lower-alpha;}
+        </style>        
     </head>
     <!-- body marker - content inside website -->
     <body>     
@@ -51,7 +58,9 @@
               <div class="free_icons">
                 <img src="images/ilustration.png" alt="Ilustration" class="information-picture" />
                 <!-- attribution -->
-                <a href="https://www.flaticon.com/free-icons/computer" title="computer icons">Computer icons created by Freepik - Flaticon</a>
+                <p>
+                  <a href="https://www.flaticon.com/free-icons/computer" title="computer icons">Computer icons created by Freepik - Flaticon</a>
+                </p>  
               </div>
               <div class="info-content">
                 <h2>
@@ -69,7 +78,7 @@
                   Current Languaes and framework that I am learnig
                 </h3>
                 <p>
-                  <ul style=“list-style-type:square”>
+                  <ul class="b">
                     <li>HTML5</li>
                     <li>CSS</li>
                     <li>Git&GitHub</li>
@@ -82,10 +91,10 @@
                 <!-- adding information contact by icons -->
                 <div class="info-contact">
                   <a href="https://www.linkedin.com/in/goralartur/" title="linkedin-contact-icon" class="info-contact-social">
-                    <img src="images/linkedin-svgrepo-com.svg" alt="Linked in icon"/>
+                    <img src="images/linkedin-svgrepo-com.svg" alt="Linkedin icon" />
                   </a>
                   <a href="https://github.com/artgoral" title="github-contact-icon" class="info-contact-social">
-                    <img src="images/github-svgrepo-com.svg" alt="GitHub in icon"/>
+                    <img src="images/github-svgrepo-com.svg" alt="GitHub icon" />
                   </a>
                 </div>
               </div>

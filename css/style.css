@@ -3,6 +3,8 @@ body {
     height: 100%
 }
 
+
+
 .header {
     background-color: rgb(255, 208, 1);
     display: flex;
@@ -11,8 +13,50 @@ body {
 }
 
 .header-profile-img {
-    background-color: brown;
+    /* background-color: brown; */
     width: 30%;
     border-radius: 25%;
     margin-right: 15px;
+    border: 2px solid rgb(123, 123, 123);
+
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    
+}
+
+section {
+
+    background-color: rgb(226, 225, 219);
+    
+}
+
+.free_icons p {
+    padding: 5px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.free_icons img {
+    width: 300px;
+    border-radius: 5%
+}
+
+
+
+.info-contact {
+    display: flex;
+    align-items: center; 
+    background-color: aquamarine;   
+}
+
+.info-contact-social {
+    padding: 5px;
+}
+
+.info-contact-social img {
+    height: 50px;
+    margin-right: 10px;
 }
